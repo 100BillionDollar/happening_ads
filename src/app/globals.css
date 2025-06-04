@@ -955,8 +955,23 @@ section.stories_slider_section {
   top:18px;
 }
 
-
-
+.blogs_box .service_caption {
+    position: relative;
+    left: auto;
+    top: 0;
+    transform: inherit;
+    text-align: left;
+}
+.blog_section{padding:70px 0;}
+.blogs_box h5.card-title {
+    color: #000;
+}
+.blogs_box .btn.btn-link  {
+color:#FDB92E;
+}
+.blogs_box {
+    padding-top: 15px;
+}
 @media screen and (min-width:768px) and (max-width:1024px)  {
 .menu-overlay{width: 756px;}
 .menu-sidebar ul li a{padding:2px 50px;}
